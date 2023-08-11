@@ -1,10 +1,29 @@
-# Getting Started with Create React App
+# User Data App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React web application that fetches user data from an API and displays it in a grid layout.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Click the "Get Users" button to fetch user data from the API.
+- Displays user information including name, avatar, and email in a grid layout.
+- Includes a loader to show loading status during API requests.
+
+## Method Used
+
+The application is built using React.js and fetches data from the `https://reqres.in/api/users?page=<page>` API.
+- The data fetching is delayed by 300 milliseconds using `setTimeout` to simulate a loading delay.
+- The user data from different pages is combined to display on a single page.
+
+## Getting Started
+
+1. Clone the repository:
+https://github.com/shivam-skj/user-data.git
+
+
+2. Install dependencies and start the app:
+cd user-grid-app
+npm start
+
 
 ### `npm start`
 
